@@ -1,0 +1,8 @@
+C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjects\bin\Debug\RemPeople.DomainObjects.dll
+C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjects\bin\Debug\RemPeople.DomainObjects.pdb
+C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjects\bin\Debug\RemPeople.DomainObjectInterfaces.dll
+C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjects\bin\Debug\RemPeople.DomainObjectInterfaces.pdb
+C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjects\obj\Debug\RemPeople.DomainObjects.csprojAssemblyReference.cache
+C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjects\obj\Debug\RemPeople.DomainObjects.csproj.CopyComplete
+C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjects\obj\Debug\RemPeople.DomainObjects.dll
+C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjects\obj\Debug\RemPeople.DomainObjects.pdb

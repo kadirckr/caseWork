@@ -1,0 +1,5 @@
+C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjectInterfaces\bin\Debug\RemPeople.DomainObjectInterfaces.dll
+C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjectInterfaces\bin\Debug\RemPeople.DomainObjectInterfaces.pdb
+C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjectInterfaces\obj\Debug\RemPeople.DomainObjectInterfaces.csprojAssemblyReference.cache
+C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjectInterfaces\obj\Debug\RemPeople.DomainObjectInterfaces.dll
+C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjectInterfaces\obj\Debug\RemPeople.DomainObjectInterfaces.pdb
