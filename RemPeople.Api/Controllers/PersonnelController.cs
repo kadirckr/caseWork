@@ -25,7 +25,7 @@ namespace RemPeople.Api.Controllers
 
 
         [HttpGet, Route("getpersonnelinformation")]
-        public ApiResult<PersonnelResponse> Get(long identificationNumber)
+        public ApiResult<PersonnelResponse> GetPersonnelInformation(long identificationNumber)
         {
             ApiResult<PersonnelResponse> apiResult = new ApiResult<PersonnelResponse>();
 
