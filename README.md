@@ -27,6 +27,6 @@ Personellerin sahip olduğu TC Kimlik numarası sadece kendilerine ait olan uniq
 
 <b>URI Parameters</b>
 
-| Name                 |Type           | Additional information |
-| -------------        | ------------- | -------------          |
-| identificationNumber | integer       | Required               |
+| Name                 |Type           | Additional information | Example       |
+| -------------        | ------------- | -------------          | ------------- |
+| identificationNumber | integer       | Required               | 123456        |
