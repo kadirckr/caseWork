@@ -17,3 +17,16 @@ Proje içerisinde manuel olarak eklenmiş dataların tablo yapısı aşağıdaki
 | 1             | Sabit Aylık Maaş          | 500           |
 | 2             | Günlük Ücret              | 20            |
 | 3             | Mesai Saati Ücreti        | 5             |
+
+
+Personellerin sahip olduğu TC Kimlik numarası sadece kendilerine ait olan uniq bir değerdir. TC Kimlik Numarası üzerinden gerçekleştireceğimiz sorgular ile personel ile ilgili gerekli bilgilere ulaşabiliriz. API Servisi ile ilgili detaylı bilgi aşağıdaki gibidir.
+
+<b>URL   :</b> /api/personnel/getpersonnelinformation 
+
+<b>Method:</b> GET 
+
+<b>URI Parameters</b>
+
+| Name                 |Type           | Additional information |
+| -------------        | ------------- | -------------          |
+| identificationNumber | integer       | Required               |
