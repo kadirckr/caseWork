@@ -63,6 +63,7 @@ namespace RemPeople.Service.Services
                 IDNumber = 234567,
                 PersonnelTypeId = 2,
                 DaysWorked = 20,
+
                 OvertimeWorkedHours = 0,
                 Name = "Name2",
                 SurName = "Surname2"
@@ -76,10 +77,22 @@ namespace RemPeople.Service.Services
                 PersonnelTypeId = 3,
                 DaysWorked = 22,
                 OvertimeWorkedHours = 10,
-                Name = "Name2",
-                SurName = "Surname2"
+                Name = "Name3",
+                SurName = "Surname3"
             };
             tbPersonnels.Add(personnel3);
+
+            tbPersonnel personnel4 = new tbPersonnel()
+            {
+                PersonnelId = 4,
+                IDNumber = 456789,
+                PersonnelTypeId = 4,
+                DaysWorked = 22,
+                OvertimeWorkedHours = 10,
+                Name = "Name4",
+                SurName = "Surname4"
+            };
+            tbPersonnels.Add(personnel4);
             #endregion
 
             ClientResponse<PersonnelDTO> response = new ClientResponse<PersonnelDTO>();
