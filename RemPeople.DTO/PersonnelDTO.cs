@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RemPeople.DTO
 {
-    public class Personnel
+    public class PersonnelDTO
     {
         public int PersonnelId { get; set; }
         public long IDNumber { get; set; }

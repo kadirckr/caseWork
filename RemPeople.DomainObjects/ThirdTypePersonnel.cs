@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RemPeople.DomainObjects
 {
-    public class ThirdTypePersonnel : IPersonnel, ISalary
+    public class ThirdTypePersonnel : IPersonnel
     {
         public long IDNumber { get; set; }
         public string Name { get; set; }

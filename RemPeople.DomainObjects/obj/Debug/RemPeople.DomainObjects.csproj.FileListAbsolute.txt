@@ -6,3 +6,11 @@ C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjects\obj\Debug\RemPeopl
 C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjects\obj\Debug\RemPeople.DomainObjects.csproj.CopyComplete
 C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjects\obj\Debug\RemPeople.DomainObjects.dll
 C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjects\obj\Debug\RemPeople.DomainObjects.pdb
+C:\Projects\Case\caseWork\RemPeople.DomainObjects\bin\Debug\RemPeople.DomainObjects.dll
+C:\Projects\Case\caseWork\RemPeople.DomainObjects\bin\Debug\RemPeople.DomainObjects.pdb
+C:\Projects\Case\caseWork\RemPeople.DomainObjects\bin\Debug\RemPeople.DomainObjectInterfaces.dll
+C:\Projects\Case\caseWork\RemPeople.DomainObjects\bin\Debug\RemPeople.DomainObjectInterfaces.pdb
+C:\Projects\Case\caseWork\RemPeople.DomainObjects\obj\Debug\RemPeople.DomainObjects.csprojAssemblyReference.cache
+C:\Projects\Case\caseWork\RemPeople.DomainObjects\obj\Debug\RemPeople.DomainObjects.csproj.CopyComplete
+C:\Projects\Case\caseWork\RemPeople.DomainObjects\obj\Debug\RemPeople.DomainObjects.dll
+C:\Projects\Case\caseWork\RemPeople.DomainObjects\obj\Debug\RemPeople.DomainObjects.pdb

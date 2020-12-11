@@ -3,3 +3,8 @@ C:\Users\ckadi\source\repos\RemPeople\RemPeople.DTO\bin\Debug\RemPeople.DTO.pdb
 C:\Users\ckadi\source\repos\RemPeople\RemPeople.DTO\obj\Debug\RemPeople.DTO.csprojAssemblyReference.cache
 C:\Users\ckadi\source\repos\RemPeople\RemPeople.DTO\obj\Debug\RemPeople.DTO.dll
 C:\Users\ckadi\source\repos\RemPeople\RemPeople.DTO\obj\Debug\RemPeople.DTO.pdb
+C:\Projects\Case\caseWork\RemPeople.DTO\bin\Debug\RemPeople.DTO.dll
+C:\Projects\Case\caseWork\RemPeople.DTO\bin\Debug\RemPeople.DTO.pdb
+C:\Projects\Case\caseWork\RemPeople.DTO\obj\Debug\RemPeople.DTO.csprojAssemblyReference.cache
+C:\Projects\Case\caseWork\RemPeople.DTO\obj\Debug\RemPeople.DTO.dll
+C:\Projects\Case\caseWork\RemPeople.DTO\obj\Debug\RemPeople.DTO.pdb

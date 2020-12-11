@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace RemPeople.DomainObjectsController
 {
-    public class PersonnelController
+    public class PersonnelControlService
     {
-        IPersonnel _personnel;
+        private IPersonnel _personnel;
 
-        public PersonnelController(IPersonnel personnel)
+        public PersonnelControlService(IPersonnel personnel)
         {
             _personnel = personnel;
         }
@@ -22,7 +22,7 @@ namespace RemPeople.DomainObjectsController
             return _personnel.Salary();
         }
 
-        public PersonnelResponse ServiceResult()
+        public PersonnelResponse GetPersonnelInfo()
         {
             PersonnelResponse personnelResponse = new PersonnelResponse
             {

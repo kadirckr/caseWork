@@ -13,19 +13,6 @@ namespace RemPeople.Api.Controllers
     {
         public ActionResult Index()
         {
-
-            IPersonnel personnel = new SecondTypePersonnel
-            {
-                DailySalary = 12,
-                DaysWorked = 32,
-                IDNumber = 23,
-                Name = "kadir",
-                Surname = "23"
-            };
-            PersonnelController personnelController = new PersonnelController(personnel);
-            var test = personnelController.CalculateSalary();
-
-
             ViewBag.Title = "Home Page";
 
             return View();

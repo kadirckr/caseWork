@@ -1,6 +1,12 @@
-﻿using System;
+﻿using Autofac;
+using Autofac.Integration.Mvc;
+using Autofac.Integration.WebApi;
+using RemPeople.Service.Interfaces;
+using RemPeople.Service.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
@@ -13,6 +19,18 @@ namespace RemPeople.Api
     {
         protected void Application_Start()
         {
+            var builder = new ContainerBuilder();
+
+            builder.RegisterType<PersonnelService>().As<IPersonnelService>().InstancePerRequest();
+
+            builder.RegisterControllers(Assembly.GetExecutingAssembly()).InstancePerRequest();
+            builder.RegisterApiControllers(Assembly.GetExecutingAssembly()).InstancePerRequest();
+
+            IContainer container = builder.Build();
+            DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
+            GlobalConfiguration.Configuration.DependencyResolver = new AutofacWebApiDependencyResolver(container);
+
+
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

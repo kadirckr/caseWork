@@ -12,8 +12,10 @@ namespace RemPeople.Service.Services
 {
     public class PersonnelService : IPersonnelService
     {
-        public async Task<ClientResponse<Personnel>> GetPersonnelByIdNumber(long idNumber)
+        public ClientResponse<PersonnelDTO> GetPersonnelByIdNumber(long idNumber)
         {
+
+            #region Adding data manually
             List<tbPersonnelType> tbPersonnelTypes = new List<tbPersonnelType>();
 
             tbPersonnelType personnelTypeFirst = new tbPersonnelType
@@ -77,15 +79,84 @@ namespace RemPeople.Service.Services
                 Name = "Name2",
                 SurName = "Surname2"
             };
-            tbPersonnels.Add(personnel2);
+            tbPersonnels.Add(personnel3);
+            #endregion
 
+            ClientResponse<PersonnelDTO> response = new ClientResponse<PersonnelDTO>();
 
-            ClientResponse<Personnel> response = new ClientResponse<Personnel>();
-
-            response.Data =  tbPersonnels.Where(w => w.IDNumber == idNumber).Select()
-
+            try
+            {
+                response.Data = tbPersonnels.Where(w => w.IDNumber == idNumber).Select(w => new PersonnelDTO
+                {
+                    DaysWorked = w.DaysWorked,
+                    IDNumber = w.IDNumber,
+                    Name = w.Name,
+                    SurName = w.SurName,
+                    OvertimeWorkedHours = w.OvertimeWorkedHours,
+                    PersonnelId = w.PersonnelId,
+                    PersonnelTypeId = w.PersonnelTypeId
+                }).FirstOrDefault();
+            }
+            catch (Exception ex)
+            {
+                response.HasErrors = true;
+                response.Message = ex.Message;
+            }
 
             return response;
+        }
+
+        public ClientResponse<List<SalaryTypeDTO>> GetSalaryTypeList()
+        {
+            #region Adding data manually
+
+            List<tbSalaryType> tbSalaryTypes = new List<tbSalaryType>();
+
+            tbSalaryType salaryTypeFirst = new tbSalaryType
+            {
+                SalaryTypeId = 1,
+                SalaryTypeText = "Sabit Aylık Maaş",
+                SalaryTypeValue = 500
+            };
+            tbSalaryTypes.Add(salaryTypeFirst);
+
+            tbSalaryType salaryTypeSecond = new tbSalaryType
+            {
+                SalaryTypeId = 2,
+                SalaryTypeText = "Günlük Ücret",
+                SalaryTypeValue = 20
+            };
+            tbSalaryTypes.Add(salaryTypeSecond);
+
+            tbSalaryType salaryTypeThird = new tbSalaryType
+            {
+                SalaryTypeId = 3,
+                SalaryTypeText = "Mesai Saati Ücreti",
+                SalaryTypeValue = 5
+            };
+            tbSalaryTypes.Add(salaryTypeThird);
+
+            #endregion
+
+            ClientResponse<List<SalaryTypeDTO>> response = new ClientResponse<List<SalaryTypeDTO>>();
+
+            try
+            {
+                response.Data = tbSalaryTypes.Select(w => new SalaryTypeDTO
+                {
+                    SalaryTypeId = w.SalaryTypeId,
+                    SalaryTypeText = w.SalaryTypeText,
+                    SalaryTypeValue = w.SalaryTypeValue
+                }).ToList();
+
+            }
+            catch (Exception ex)
+            {
+                response.HasErrors = true;
+                response.Message = ex.Message;
+            }
+            return response;
+
         }
     }
 }

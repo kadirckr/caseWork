@@ -5,13 +5,8 @@ using System.Text;
 
 namespace RemPeople.DomainObjects
 {
-    public class SecondTypePersonnel : IPersonnel, ISalary
+    public class SecondTypePersonnel : IPersonnel
     {
-        //public SecondTypePersonnel(int daysWorked, int dailySalary)
-        //{
-        //    DaysWorked = daysWorked;
-        //    DailySalary = dailySalary;
-        //}
         public long IDNumber { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }

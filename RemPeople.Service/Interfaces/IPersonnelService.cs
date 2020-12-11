@@ -10,6 +10,7 @@ namespace RemPeople.Service.Interfaces
 {
     public interface IPersonnelService
     {
-        Task<ClientResponse<Personnel>> GetPersonnelByIdNumber(long idNumber);
+        ClientResponse<PersonnelDTO> GetPersonnelByIdNumber(long idNumber);
+        ClientResponse<List<SalaryTypeDTO>> GetSalaryTypeList();
     }
 }

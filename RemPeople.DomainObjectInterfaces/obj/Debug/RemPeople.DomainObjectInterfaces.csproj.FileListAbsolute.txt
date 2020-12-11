@@ -3,3 +3,8 @@ C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjectInterfaces\bin\Debug
 C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjectInterfaces\obj\Debug\RemPeople.DomainObjectInterfaces.csprojAssemblyReference.cache
 C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjectInterfaces\obj\Debug\RemPeople.DomainObjectInterfaces.dll
 C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjectInterfaces\obj\Debug\RemPeople.DomainObjectInterfaces.pdb
+C:\Projects\Case\caseWork\RemPeople.DomainObjectInterfaces\bin\Debug\RemPeople.DomainObjectInterfaces.dll
+C:\Projects\Case\caseWork\RemPeople.DomainObjectInterfaces\bin\Debug\RemPeople.DomainObjectInterfaces.pdb
+C:\Projects\Case\caseWork\RemPeople.DomainObjectInterfaces\obj\Debug\RemPeople.DomainObjectInterfaces.csprojAssemblyReference.cache
+C:\Projects\Case\caseWork\RemPeople.DomainObjectInterfaces\obj\Debug\RemPeople.DomainObjectInterfaces.dll
+C:\Projects\Case\caseWork\RemPeople.DomainObjectInterfaces\obj\Debug\RemPeople.DomainObjectInterfaces.pdb

@@ -3,3 +3,8 @@ C:\Users\ckadi\source\repos\RemPeople\RemPeople.DAL\bin\Debug\RemPeople.DAL.pdb
 C:\Users\ckadi\source\repos\RemPeople\RemPeople.DAL\obj\Debug\RemPeople.DAL.csprojAssemblyReference.cache
 C:\Users\ckadi\source\repos\RemPeople\RemPeople.DAL\obj\Debug\RemPeople.DAL.dll
 C:\Users\ckadi\source\repos\RemPeople\RemPeople.DAL\obj\Debug\RemPeople.DAL.pdb
+C:\Projects\Case\caseWork\RemPeople.DAL\bin\Debug\RemPeople.DAL.dll
+C:\Projects\Case\caseWork\RemPeople.DAL\bin\Debug\RemPeople.DAL.pdb
+C:\Projects\Case\caseWork\RemPeople.DAL\obj\Debug\RemPeople.DAL.csprojAssemblyReference.cache
+C:\Projects\Case\caseWork\RemPeople.DAL\obj\Debug\RemPeople.DAL.dll
+C:\Projects\Case\caseWork\RemPeople.DAL\obj\Debug\RemPeople.DAL.pdb

@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMember.cs" />
     <Compile Include="IPersonnel.cs" />
     <Compile Include="ISalary.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

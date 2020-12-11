@@ -8,3 +8,13 @@ C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjectsController\obj\Debu
 C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjectsController\obj\Debug\RemPeople.DomainObjectsController.csproj.CopyComplete
 C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjectsController\obj\Debug\RemPeople.DomainObjectsController.dll
 C:\Users\ckadi\source\repos\RemPeople\RemPeople.DomainObjectsController\obj\Debug\RemPeople.DomainObjectsController.pdb
+C:\Projects\Case\caseWork\RemPeople.DomainObjectsController\bin\Debug\RemPeople.DomainObjectsController.dll
+C:\Projects\Case\caseWork\RemPeople.DomainObjectsController\bin\Debug\RemPeople.DomainObjectsController.pdb
+C:\Projects\Case\caseWork\RemPeople.DomainObjectsController\bin\Debug\RemPeople.DomainObjectInterfaces.dll
+C:\Projects\Case\caseWork\RemPeople.DomainObjectsController\bin\Debug\RemPeople.DTO.dll
+C:\Projects\Case\caseWork\RemPeople.DomainObjectsController\bin\Debug\RemPeople.DomainObjectInterfaces.pdb
+C:\Projects\Case\caseWork\RemPeople.DomainObjectsController\bin\Debug\RemPeople.DTO.pdb
+C:\Projects\Case\caseWork\RemPeople.DomainObjectsController\obj\Debug\RemPeople.DomainObjectsController.csprojAssemblyReference.cache
+C:\Projects\Case\caseWork\RemPeople.DomainObjectsController\obj\Debug\RemPeople.DomainObjectsController.csproj.CopyComplete
+C:\Projects\Case\caseWork\RemPeople.DomainObjectsController\obj\Debug\RemPeople.DomainObjectsController.dll
+C:\Projects\Case\caseWork\RemPeople.DomainObjectsController\obj\Debug\RemPeople.DomainObjectsController.pdb

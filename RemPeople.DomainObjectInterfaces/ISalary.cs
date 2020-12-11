@@ -11,5 +11,6 @@ namespace RemPeople.DomainObjectInterfaces
         int MonthlySalary { get; set; }
         int DailySalary { get; set; }
         int OvertimeWorkedHourlySalary { get; set; }
+        int Salary();
     }
 }

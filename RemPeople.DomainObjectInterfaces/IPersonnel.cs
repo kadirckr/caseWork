@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace RemPeople.DomainObjectInterfaces
 {
-    public interface IPersonnel
+    public interface IPersonnel : IMember, ISalary
     {
-        long IDNumber { get; set; }
-        string Name { get; set; }
-        string Surname { get; set; }
-        int DaysWorked { get; set; }
-        int OvertimeWorkedHours { get; set; }
-        int Salary();
+
     }
 }
